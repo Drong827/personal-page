@@ -45,7 +45,7 @@ header {
     transition: transform 0.2s;
     background-size: cover;
     background-position: center;
-    background-image: url('../images/f55dc22ecbad49a2774fd31b75c98493.jpg');
+    background-image: url('f55dc22ecbad49a2774fd31b75c98493.jpg');
 }
 
 .avatar:hover {
@@ -67,11 +67,24 @@ h1 {
 }
 
 .tag {
-    background-color: #bbdefb;
-    color: #1976d2;
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 13px;
+}
+
+.tag:nth-child(1) {
+    background-color: #bbdefb;
+    color: #1976d2;
+}
+
+.tag:nth-child(2) {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.tag:nth-child(3) {
+    background-color: #ffecb3;
+    color: #e65100;
 }
 
 section {
@@ -92,9 +105,11 @@ h2 {
 }
 
 h3 {
-    color: #333;
+    color: #1976d2;
     margin: 15px 0 8px;
     font-size: 16px;
+    padding-left: 10px;
+    border-left: 3px solid #42a5f5;
 }
 
 .info-item {
@@ -133,8 +148,29 @@ h3 {
 
 .skill-level {
     font-size: 11px;
-    color: #666;
     margin-left: 6px;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+.level-proficient {
+    background-color: #4caf50;
+    color: white;
+}
+
+.level-master {
+    background-color: #2196f3;
+    color: white;
+}
+
+.level-basic {
+    background-color: #ff9800;
+    color: white;
+}
+
+.level-beginner {
+    background-color: #9e9e9e;
+    color: white;
 }
 
 .contact-info {
@@ -177,19 +213,45 @@ h3 {
 }
 
 .hobby-item {
-    background-color: #e3f2fd;
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 13px;
 }
 
+.hobby-item:nth-child(1) {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+.hobby-item:nth-child(2) {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.hobby-item:nth-child(3) {
+    background-color: #ffecb3;
+    color: #e65100;
+}
+
+.hobby-item:nth-child(4) {
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+}
+
+.hobby-item:nth-child(5) {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
 .personal-philosophy {
-    background-color: #f5f5f5;
-    padding: 12px;
+    background-color: #e3f2fd;
+    padding: 15px;
     border-radius: 8px;
     margin: 10px 0;
     font-style: italic;
     font-size: 14px;
+    color: #1976d2;
+    border-left: 4px solid #2196f3;
 }
 
 footer {
