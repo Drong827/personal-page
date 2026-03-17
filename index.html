@@ -7,21 +7,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button class="edit-mode-btn" id="editModeBtn">编辑模式</button>
-    
     <div class="container">
         <header>
             <div class="avatar-container">
                 <div class="avatar" id="avatar"></div>
-                <input type="file" class="avatar-input" id="avatarInput" accept="image/*">
-                <button class="avatar-edit" id="avatarEditBtn">📷</button>
             </div>
-            <h1 class="editable" id="name">戴荣凤</h1>
+            <h1 id="name">戴荣凤</h1>
             <div class="tags" id="tags">
-                <span class="tag editable">电子科技大学成都学院计算机专业大二</span>
-                <span class="tag editable">前端开发学习者</span>
-                <span class="tag editable">看小说</span>
-                <button class="add-tag-btn" id="addTagBtn">+ 添加标签</button>
+                <span class="tag">电子科技大学成都学院计算机专业大二</span>
+                <span class="tag">前端开发学习者</span>
+                <span class="tag">看小说</span>
             </div>
         </header>
         
@@ -31,98 +26,93 @@
             <h3>校园背景</h3>
             <div class="info-item">
                 <span class="info-label">学校专业：</span>
-                <span class="info-value editable">电子科技大学成都学院计算机科学与技术学院 软件工程专业</span>
+                <span class="info-value">电子科技大学成都学院计算机科学与技术学院 软件工程专业</span>
             </div>
             <div class="info-item">
                 <span class="info-label">入学时间：</span>
-                <span class="info-value editable">2024 级 | 预计 2028 年毕业</span>
+                <span class="info-value">2024 级 | 预计 2028 年毕业</span>
             </div>
             <div class="info-item">
                 <span class="info-label">学历层次：</span>
-                <span class="info-value editable">本科</span>
+                <span class="info-value">本科</span>
             </div>
             
             <h3>专业技能</h3>
             <div class="skills" id="skills">
-                <div class="skill-item editable">Python <span class="skill-level">熟练</span></div>
-                <div class="skill-item editable">SQL <span class="skill-level">掌握</span></div>
-                <div class="skill-item editable">HTML/CSS <span class="skill-level">基础</span></div>
-                <div class="skill-item editable">Matlab <span class="skill-level">了解</span></div>
-                <div class="skill-item editable">文案写作 <span class="skill-level">掌握</span></div>
-                <div class="skill-item editable">PPT 制作 <span class="skill-level">掌握</span></div>
-                <button class="add-skill-btn" id="addSkillBtn">+ 添加技能</button>
+                <div class="skill-item">Python <span class="skill-level">熟练</span></div>
+                <div class="skill-item">SQL <span class="skill-level">掌握</span></div>
+                <div class="skill-item">HTML/CSS <span class="skill-level">基础</span></div>
+                <div class="skill-item">Matlab <span class="skill-level">了解</span></div>
+                <div class="skill-item">文案写作 <span class="skill-level">掌握</span></div>
+                <div class="skill-item">PPT 制作 <span class="skill-level">掌握</span></div>
             </div>
             
             <h3>核心课程</h3>
             <div class="info-item">
                 <span class="info-label">高分课程：</span>
-                <span class="info-value editable">数据结构、操作系统、机器学习（90+）</span>
+                <span class="info-value">数据结构、操作系统、概率统计、java、云计算基础（90+）</span>
             </div>
             
             <h3>联系方式</h3>
             <div class="contact-info" id="contactInfo">
-                <div class="contact-item editable">
+                <div class="contact-item">
                     <span>📧</span>
                     <span>3525902171@qq.com</span>
                 </div>
-                <button class="add-contact-btn" id="addContactBtn">+ 添加联系方式</button>
             </div>
             
             <h3>实践经历</h3>
-            <div class="experience-item editable">
+            <div class="experience-item">
                 <div class="experience-title">实习经历</div>
-                <div class="experience-desc">校外发传单，服务员</div>
+                <div class="experience-desc">校外发传单，服务员，客服</div>
             </div>
-            <button class="add-experience-btn" id="addExperienceBtn">+ 添加经历</button>
             
             <h3>获奖成果</h3>
             <div class="info-item">
                 <span class="info-label">学科竞赛：</span>
-                <span class="info-value editable">无</span>
+                <span class="info-value">无</span>
             </div>
             <div class="info-item">
                 <span class="info-label">奖学金 / 荣誉：</span>
-                <span class="info-value editable">无</span>
+                <span class="info-value">无</span>
             </div>
             <div class="info-item">
                 <span class="info-label">证书：</span>
-                <span class="info-value editable">CET-4（580+）</span>
+                <span class="info-value">CET-4（580+）</span>
             </div>
-            <button class="add-experience-btn" id="addAwardBtn">+ 添加获奖</button>
             
             <h3>项目成果</h3>
-            <div class="experience-item editable">
+            <div class="experience-item">
                 <div class="experience-title">课程设计：图书管理系统</div>
                 <div class="experience-desc">技术栈：Java+MySQL | 负责后端接口开发</div>
             </div>
-            <div class="experience-item editable">
+            <div class="experience-item">
                 <div class="experience-title">个人作业：校园二手交易平台原型设计</div>
                 <div class="experience-desc">工具：Figma | 完成需求分析和页面设计</div>
             </div>
-            <button class="add-experience-btn" id="addProjectBtn">+ 添加项目</button>
             
             <h3>学习计划</h3>
             <div class="info-item">
                 <span class="info-label">正在学习：</span>
-                <span class="info-value editable">JavaWeb 框架</span>
+                <span class="info-value">JavaWeb 框架，数据库原理、云计算、Java web</span>
             </div>
             <div class="info-item">
                 <span class="info-label">计划：</span>
-                <span class="info-value editable">2026考四级，普通话</span>
+                <span class="info-value">2026考四级，普通话、练字和学习英语</span>
             </div>
-            <button class="add-plan-btn" id="addPlanBtn">+ 添加计划</button>
             
             <h3>兴趣爱好</h3>
             <div class="hobbies" id="hobbies">
-                <span class="hobby-item editable">阅读</span>
-                <span class="hobby-item editable">校园跑</span>
-                <span class="hobby-item editable">摄影</span>
-                <button class="add-hobby-btn" id="addHobbyBtn">+ 添加爱好</button>
+                <span class="hobby-item">阅读</span>
+                <span class="hobby-item">校园跑</span>
+                <span class="hobby-item">练字</span>
+                <span class="hobby-item">学习英语</span>
+                <span class="hobby-item">手工</span>
             </div>
             
             <h3>个人理念</h3>
-            <div class="personal-philosophy editable" id="philosophy">
-                巅峰产生虚伪的拥护
+            <div class="personal-philosophy" id="philosophy">
+                巅峰产生虚伪的拥护，一个人不要太骄傲踏实做事
             </div>
         </section>
         
@@ -130,7 +120,5 @@
             <p>© 2026 戴荣凤个人主页</p>
         </footer>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
